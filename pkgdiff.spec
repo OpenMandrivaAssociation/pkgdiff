@@ -1,7 +1,7 @@
 Summary:	A tool for analyzing changes in Linux software packages
 Name:		pkgdiff
-Version:	1.0
-Release:	%mkrel 2
+Version:	1.0.1
+Release:	%mkrel 1
 Group:		Development/Other
 License:	GPLv2+
 URL:		http://pkgdiff.github.com/pkgdiff/
@@ -28,6 +28,7 @@ cp %{name}.pl %{name}
 # Generate man page
 help2man -N --no-discard-stderr -o %{name}.1 ./%{name}
 sed -i 's/\(.\)/\n\1/' %{name}.1
+sed -i 's/PACKAGE/PKGDIFF/' %{name}.1
 
 %build
 # Nothing to build.
