@@ -1,6 +1,6 @@
 Summary:	A tool for analyzing changes in Linux software packages
 Name:		pkgdiff
-Version:	1.0.1
+Version:	1.1
 Release:	%mkrel 1
 Group:		Development/Other
 License:	GPLv2+
@@ -9,7 +9,7 @@ Source0:	https://github.com/downloads/pkgdiff/pkgdiff/pkgdiff-%{version}.tar.gz
 Requires:	wdiff
 Requires:	binutils
 Requires:       gawk
-Suggests:       abi-compliance-checker >= 1.96
+Suggests:       abi-compliance-checker >= 1.96.7
 BuildRequires:  help2man
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
