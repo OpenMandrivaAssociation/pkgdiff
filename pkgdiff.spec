@@ -1,6 +1,6 @@
 Summary:	A tool for analyzing changes in Linux software packages
 Name:		pkgdiff
-Version:	1.1.1
+Version:	1.2
 Release:	%mkrel 1
 Group:		Development/Other
 License:	GPLv2+
