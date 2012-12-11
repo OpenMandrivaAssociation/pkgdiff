@@ -49,3 +49,34 @@ rm -rf %{buildroot}
 %doc LICENSE README doc/*
 %{_bindir}/%{name}
 %{_datadir}/%{name}
+
+%changelog
+* Wed Apr 04 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.3.3-1mdv2011.0
++ Revision: 789183
+- Updated to 1.3.3
+
+* Tue Mar 06 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.3-1
++ Revision: 782485
+- Updated to 1.3
+
+* Fri Feb 17 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.2-1
++ Revision: 775947
+- Updated to 1.2
+
+* Fri Feb 10 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.1.1-1
++ Revision: 772484
+- Updated to 1.1.1
+
+* Thu Feb 09 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.1-1
++ Revision: 772334
+- Updated to 1.1
+
+* Thu Feb 02 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.0.1-1
++ Revision: 770631
+- Updated to 1.0.1
+
+* Mon Jan 30 2012 Andrey Ponomarenko <andrey.ponomarenko@rosalab.ru> 1.0-2
++ Revision: 769732
+- Initial package.
+- Created package structure for pkgdiff.
+
