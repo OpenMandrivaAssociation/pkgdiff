@@ -1,7 +1,7 @@
 Summary:	A tool for analyzing changes in Linux software packages
 Name:		pkgdiff
 Version:	1.3.3
-Release:	%mkrel 1
+Release:	2
 Group:		Development/Other
 License:	GPLv2+
 URL:		http://pkgdiff.github.com/pkgdiff/
