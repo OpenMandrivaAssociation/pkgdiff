@@ -1,18 +1,17 @@
 Summary:	A tool for analyzing changes in Linux software packages
 Name:		pkgdiff
-Version:	1.3.3
-Release:	2
+Version:	1.7.2
+Release:	1
 Group:		Development/Other
 License:	GPLv2+
-URL:		http://pkgdiff.github.com/pkgdiff/
-Source0:	https://github.com/downloads/pkgdiff/pkgdiff/pkgdiff-%{version}.tar.gz
+URL:		http://lvc.github.io/pkgdiff/
+Source0:	https://github.com/lvc/pkgdiff/archive/%{version}.tar.gz
 Requires:	wdiff
 Requires:	binutils
 Requires:       gawk
 Suggests:       abi-compliance-checker >= 1.96.7
 BuildRequires:  help2man
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Package Changes Analyzer (pkgdiff) is a tool for analyzing changes
