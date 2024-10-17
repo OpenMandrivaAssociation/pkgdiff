@@ -4,7 +4,7 @@ Version:	1.7.2
 Release:	1
 Group:		Development/Other
 License:	GPLv2+
-URL:		http://lvc.github.io/pkgdiff/
+URL:		https://lvc.github.io/pkgdiff/
 Source0:	https://github.com/lvc/pkgdiff/archive/%{version}.tar.gz
 Requires:	wdiff
 Requires:	binutils
